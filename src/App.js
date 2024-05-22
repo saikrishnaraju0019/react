@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+function Hello() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  <div>
+    <center>
+    <h1>sai</h1>
+  <button>krishna</button>
+  <h1>jai sri ram</h1>
+  <i>krishna</i>
+  <table class="tab">
+    <tr class="tr">
+    <td class="td">Rana</td>
+    <td class="td">ntr</td>
+    <td class="td">prabhas</td>
+
+    </tr>
+  </table>
+  <img src="https://c.tadst.com/gfx/600x337/rainbow.jpg?1" alt=""/>
+  </center>
+  </div>
+)
 }
 
-export default App;
+export default Hello;
+

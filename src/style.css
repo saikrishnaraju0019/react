@@ -1,0 +1,8 @@
+.tab,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+height: 25px;
+width: 250px;
+text-align: center;
+}
+
