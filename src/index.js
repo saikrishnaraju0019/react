@@ -5,12 +5,13 @@ import Hello from './App.js';
 import './style.css'
 import reportWebVitals from './reportWebVitals';
 // import Hello from './components/button/button';
+import  Image from './components/images/image.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Hello></Hello>
-    
+    <Image></Image>
 
 
   
