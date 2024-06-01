@@ -1,3 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import Button from './components/button/button.js';
+// import ButtonComponent from './components/button/button.js';
+import Greeting from './components/greetings/greetings';
+
 // function Hello() {
 //   const employee={
 //     name:"Krishna",
@@ -20,14 +26,20 @@
 //   </div>
 // )
 // }
-function Hello(){
-  const isvoted=true
-  if(isvoted){
-    return <h1>thank you</h1>
-  }
-  else{
-    return <p>please vote</p>
-  }
+
+function But(){
+    return(
+        <>
+        {/* <ButtonComponent text="sign in" background="yellow"></ButtonComponent>
+        <h1>hai</h1>
+        <ButtonComponent text="Log in" background="skyblue"></ButtonComponent>
+        <h1>krishna</h1>
+        <ButtonComponent text="sign up" background="white"></ButtonComponent> */}
+        <Greeting> sai
+            
+        </Greeting>
+</>
+    )
 }
-export default Hello;
+export default But;
 

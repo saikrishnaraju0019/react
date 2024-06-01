@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Hello from './App.js';
+import Hello from './components/ipltable/table';
 import './style.css'
 import reportWebVitals from './reportWebVitals';
-// import Hello from './components/button/button';
-import  Image from './components/images/image.js';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './components/nav-bar/nav';
+import BasicExample from './components/accordin/accordin';
+// import  Image from './components/images/image.js';
+import Caursol from './components/caursol/caursol';
+import But from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello></Hello>
-    <Image></Image>
+        {/* <Nav></Nav> */}
+        <But></But>
+        <center>
+        {/* <Caursol></Caursol> */}
+        </center>
+    {/* <BasicExample></BasicExample>  */}
+    { /* <Image></Image> */ }
 
 
   

@@ -1,12 +1,19 @@
-.tab,tr,td{
+table,tr,th,td{
     border: 2px solid black;
     border-collapse: collapse;
 height: 25px;
 width: 250px;
 text-align: center;
 }
+table{
+    width:500px;
+}
 .Image{
     height: 300px;
     width: 250px;
+}
+
+li{
+    list-style: none;
 }
 
